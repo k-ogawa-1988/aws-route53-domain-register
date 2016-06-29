@@ -19,6 +19,7 @@
     - Key: YOUR_KEY (e.g. *DDNS*)
     - Value: Your FQDN (e.g. *test.example.com*)
   - The latest [AWS CLI is installed](http://docs.aws.amazon.com/cli/latest/userguide/installing.html).
+  - The latest [jq](http://stedolan.github.io/jq/) is installed.
 - a [Route53 Hosted Zone](https://console.aws.amazon.com/route53/home#hosted-zones:)
 
 ## Install
@@ -72,7 +73,8 @@ sh install.sh
   - 以下のタグが必要です
     - キー: 任意の文字列 (例: *DDNS*)
     - 値: 設定したいドメインのフルネーム (例: *test.example.com*)
-  - インストール先には最新のAWS CLIが必要です
+  - インストール先には最新の[AWS CLI](http://docs.aws.amazon.com/cli/latest/userguide/installing.html)が必要です
+  - インストール先には最新の[jq](http://stedolan.github.io/jq/)が必要です
 - [Route53 Hosted Zone](https://console.aws.amazon.com/route53/home#hosted-zones:)
 
 ## インストール方法
